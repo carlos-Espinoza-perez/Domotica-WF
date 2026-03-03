@@ -1,0 +1,8 @@
+# Cache y configuraciones locales de Visual Studio
+.vs/
+*.user
+*.suo
+
+# Carpetas de compilación de C#
+bin/
+obj/
