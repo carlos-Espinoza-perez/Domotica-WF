@@ -76,7 +76,13 @@
     <Compile Include="Views\Clima.Designer.cs">
       <DependentUpon>Clima.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Component\ConfigurarGraficaModerna.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Views\Component\PanelRedondeado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Component\SliderModerno.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Views\Iluminacion.cs">

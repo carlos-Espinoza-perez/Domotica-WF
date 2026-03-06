@@ -42,7 +42,6 @@
             this.sidebar_opt_iluminacion = new System.Windows.Forms.Panel();
             this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.sidebar_opt_inicio = new System.Windows.Forms.Panel();
             this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -83,7 +82,6 @@
             this.SideBar.Controls.Add(this.sidebar_opt_seguridad);
             this.SideBar.Controls.Add(this.sidebar_opt_clima);
             this.SideBar.Controls.Add(this.sidebar_opt_iluminacion);
-            this.SideBar.Controls.Add(this.button1);
             this.SideBar.Controls.Add(this.sidebar_opt_inicio);
             this.SideBar.Controls.Add(this.label2);
             this.SideBar.Controls.Add(this.panel3);
@@ -261,15 +259,6 @@
             this.label4.Text = "Iluminación";
             this.label4.Click += new System.EventHandler(this.sidebar_opt_iluminacion_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, 69);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(12, 55);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // sidebar_opt_inicio
             // 
             this.sidebar_opt_inicio.Controls.Add(this.iconPictureBox2);
@@ -423,6 +412,7 @@
             // 
             // PanelContenido
             // 
+            this.PanelContenido.AutoScroll = true;
             this.PanelContenido.BackColor = System.Drawing.Color.WhiteSmoke;
             this.PanelContenido.Controls.Add(this.button2);
             this.PanelContenido.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -493,7 +483,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel sidebar_opt_inicio;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel sidebar_opt_multimedia;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel sidebar_opt_seguridad;

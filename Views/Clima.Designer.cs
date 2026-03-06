@@ -37,38 +37,31 @@
             // panelRedondeado1
             // 
             this.panelRedondeado1.BackColor = System.Drawing.Color.Transparent;
-            this.panelRedondeado1.ColorTarjeta = System.Drawing.Color.White;
-            this.panelRedondeado1.Location = new System.Drawing.Point(12, 69);
             this.panelRedondeado1.Name = "panelRedondeado1";
             this.panelRedondeado1.Padding = new System.Windows.Forms.Padding(8);
             this.panelRedondeado1.RadioBordes = 15;
             this.panelRedondeado1.Size = new System.Drawing.Size(494, 369);
             this.panelRedondeado1.TabIndex = 0;
-            this.panelRedondeado1.TamañoSombra = 6;
             // 
             // panelRedondeado2
             // 
             this.panelRedondeado2.BackColor = System.Drawing.Color.Transparent;
-            this.panelRedondeado2.ColorTarjeta = System.Drawing.Color.White;
             this.panelRedondeado2.Location = new System.Drawing.Point(528, 69);
             this.panelRedondeado2.Name = "panelRedondeado2";
             this.panelRedondeado2.Padding = new System.Windows.Forms.Padding(8);
             this.panelRedondeado2.RadioBordes = 15;
             this.panelRedondeado2.Size = new System.Drawing.Size(527, 172);
             this.panelRedondeado2.TabIndex = 1;
-            this.panelRedondeado2.TamañoSombra = 6;
             // 
             // panelRedondeado3
             // 
             this.panelRedondeado3.BackColor = System.Drawing.Color.Transparent;
-            this.panelRedondeado3.ColorTarjeta = System.Drawing.Color.White;
             this.panelRedondeado3.Location = new System.Drawing.Point(528, 266);
             this.panelRedondeado3.Name = "panelRedondeado3";
             this.panelRedondeado3.Padding = new System.Windows.Forms.Padding(8);
             this.panelRedondeado3.RadioBordes = 15;
             this.panelRedondeado3.Size = new System.Drawing.Size(527, 172);
             this.panelRedondeado3.TabIndex = 2;
-            this.panelRedondeado3.TamañoSombra = 6;
             // 
             // linkLabel1
             // 
