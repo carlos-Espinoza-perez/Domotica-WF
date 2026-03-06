@@ -157,6 +157,9 @@ namespace Domotica.Views
             AbrirFormEnPanel(new Multimedia());
         }
 
+        private void PanelContenido_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }

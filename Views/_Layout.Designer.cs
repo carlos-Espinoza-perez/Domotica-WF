@@ -56,6 +56,7 @@
             this.timerSideBar = new System.Windows.Forms.Timer(this.components);
             this.panel4 = new System.Windows.Forms.Panel();
             this.PanelContenido = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.SideBar.SuspendLayout();
             this.sidebar_opt_multimedia.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox6)).BeginInit();
@@ -71,6 +72,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.Header.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ButtonToggleSideBar)).BeginInit();
+            this.PanelContenido.SuspendLayout();
             this.SuspendLayout();
             // 
             // SideBar
@@ -87,7 +89,8 @@
             this.SideBar.Dock = System.Windows.Forms.DockStyle.Left;
             this.SideBar.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.SideBar.Location = new System.Drawing.Point(0, 0);
-            this.SideBar.MaximumSize = new System.Drawing.Size(230, 0);
+            this.SideBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SideBar.MaximumSize = new System.Drawing.Size(307, 0);
             this.SideBar.Name = "SideBar";
             this.SideBar.Size = new System.Drawing.Size(223, 692);
             this.SideBar.TabIndex = 0;
@@ -343,7 +346,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
             this.label1.Location = new System.Drawing.Point(39, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 16);
+            this.label1.Size = new System.Drawing.Size(112, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "Casa inteligente";
             // 
@@ -411,11 +414,23 @@
             // 
             this.PanelContenido.AutoScroll = true;
             this.PanelContenido.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.PanelContenido.Controls.Add(this.button2);
             this.PanelContenido.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelContenido.Location = new System.Drawing.Point(223, 57);
             this.PanelContenido.Name = "PanelContenido";
             this.PanelContenido.Size = new System.Drawing.Size(1238, 635);
             this.PanelContenido.TabIndex = 3;
+            this.PanelContenido.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContenido_Paint);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.Location = new System.Drawing.Point(166, 107);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(104, 52);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "Detalles";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // _Layout
             // 
@@ -451,6 +466,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             this.Header.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ButtonToggleSideBar)).EndInit();
+            this.PanelContenido.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -484,5 +500,6 @@
         private FontAwesome.Sharp.IconPictureBox ButtonToggleSideBar;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel PanelContenido;
+        private System.Windows.Forms.Button button2;
     }
 }
