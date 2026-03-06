@@ -26,5 +26,25 @@ namespace Domotica.Views
         {
 
         }
+
+        private void iconPictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Clima_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
