@@ -46,14 +46,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panelRedondeado3 = new PanelRedondeado();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txt_control_de_clima = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.iconButton2 = new FontAwesome.Sharp.IconButton();
+            this.iconButton3 = new FontAwesome.Sharp.IconButton();
+            this.iconButton4 = new FontAwesome.Sharp.IconButton();
             iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             ((System.ComponentModel.ISupportInitialize)(iconPictureBox1)).BeginInit();
             this.panelRedondeado1.SuspendLayout();
@@ -96,6 +97,7 @@
             this.panelRedondeado1.Size = new System.Drawing.Size(494, 435);
             this.panelRedondeado1.TabIndex = 0;
             this.panelRedondeado1.TamañoSombra = 6;
+            this.panelRedondeado1.Paint += new System.Windows.Forms.PaintEventHandler(this.panelRedondeado1_Paint);
             // 
             // label1
             // 
@@ -257,9 +259,10 @@
             // 
             this.panelRedondeado3.BackColor = System.Drawing.Color.Transparent;
             this.panelRedondeado3.ColorTarjeta = System.Drawing.Color.White;
-            this.panelRedondeado3.Controls.Add(this.flowLayoutPanel4);
-            this.panelRedondeado3.Controls.Add(this.flowLayoutPanel3);
-            this.panelRedondeado3.Controls.Add(this.flowLayoutPanel2);
+            this.panelRedondeado3.Controls.Add(this.iconButton4);
+            this.panelRedondeado3.Controls.Add(this.iconButton3);
+            this.panelRedondeado3.Controls.Add(this.iconButton2);
+            this.panelRedondeado3.Controls.Add(this.iconButton1);
             this.panelRedondeado3.Controls.Add(this.label3);
             this.panelRedondeado3.Controls.Add(this.panel4);
             this.panelRedondeado3.Location = new System.Drawing.Point(528, 305);
@@ -269,30 +272,6 @@
             this.panelRedondeado3.Size = new System.Drawing.Size(527, 199);
             this.panelRedondeado3.TabIndex = 2;
             this.panelRedondeado3.TamañoSombra = 6;
-            // 
-            // flowLayoutPanel4
-            // 
-            this.flowLayoutPanel4.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(267, 128);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(235, 48);
-            this.flowLayoutPanel4.TabIndex = 5;
-            // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(26, 128);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(235, 48);
-            this.flowLayoutPanel3.TabIndex = 5;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(267, 74);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(235, 48);
-            this.flowLayoutPanel2.TabIndex = 5;
             // 
             // label3
             // 
@@ -335,6 +314,75 @@
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.BackColor = System.Drawing.Color.Gainsboro;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Sun;
+            this.iconButton1.IconColor = System.Drawing.Color.Black;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 25;
+            this.iconButton1.Location = new System.Drawing.Point(37, 61);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(217, 61);
+            this.iconButton1.TabIndex = 4;
+            this.iconButton1.Text = "Modo Calor";
+            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
+            // iconButton2
+            // 
+            this.iconButton2.BackColor = System.Drawing.Color.Gainsboro;
+            this.iconButton2.FlatAppearance.BorderSize = 0;
+            this.iconButton2.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.Wind;
+            this.iconButton2.IconColor = System.Drawing.Color.Black;
+            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton2.IconSize = 25;
+            this.iconButton2.Location = new System.Drawing.Point(273, 61);
+            this.iconButton2.Name = "iconButton2";
+            this.iconButton2.Size = new System.Drawing.Size(217, 61);
+            this.iconButton2.TabIndex = 5;
+            this.iconButton2.Text = "Modo Frio";
+            this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.iconButton2.UseVisualStyleBackColor = false;
+            // 
+            // iconButton3
+            // 
+            this.iconButton3.BackColor = System.Drawing.Color.Gainsboro;
+            this.iconButton3.FlatAppearance.BorderSize = 0;
+            this.iconButton3.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Gears;
+            this.iconButton3.IconColor = System.Drawing.Color.Black;
+            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton3.IconSize = 25;
+            this.iconButton3.Location = new System.Drawing.Point(37, 128);
+            this.iconButton3.Name = "iconButton3";
+            this.iconButton3.Size = new System.Drawing.Size(217, 61);
+            this.iconButton3.TabIndex = 6;
+            this.iconButton3.Text = "Configurar Horarios";
+            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.iconButton3.UseVisualStyleBackColor = false;
+            // 
+            // iconButton4
+            // 
+            this.iconButton4.BackColor = System.Drawing.Color.Gainsboro;
+            this.iconButton4.FlatAppearance.BorderSize = 0;
+            this.iconButton4.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.Lightbulb;
+            this.iconButton4.IconColor = System.Drawing.Color.Black;
+            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton4.IconSize = 23;
+            this.iconButton4.Location = new System.Drawing.Point(273, 129);
+            this.iconButton4.Name = "iconButton4";
+            this.iconButton4.Size = new System.Drawing.Size(217, 61);
+            this.iconButton4.TabIndex = 7;
+            this.iconButton4.Text = "Modo ECO";
+            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.iconButton4.UseVisualStyleBackColor = false;
             // 
             // Clima
             // 
@@ -395,8 +443,9 @@
         private System.Windows.Forms.Label label6;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox3;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private FontAwesome.Sharp.IconButton iconButton1;
+        private FontAwesome.Sharp.IconButton iconButton4;
+        private FontAwesome.Sharp.IconButton iconButton3;
+        private FontAwesome.Sharp.IconButton iconButton2;
     }
 }

@@ -46,5 +46,30 @@ namespace Domotica.Views
         {
 
         }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelRedondeado1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
