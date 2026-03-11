@@ -85,11 +85,11 @@
     <Compile Include="Views\Component\SliderModerno.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Views\Iluminacion.cs">
+    <Compile Include="Views\FormIluminacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Iluminacion.Designer.cs">
-      <DependentUpon>Iluminacion.cs</DependentUpon>
+    <Compile Include="Views\FormIluminacion.Designer.cs">
+      <DependentUpon>FormIluminacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Inicio.cs">
       <SubType>Form</SubType>
@@ -128,8 +128,8 @@
     <EmbeddedResource Include="Views\Clima.resx">
       <DependentUpon>Clima.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Iluminacion.resx">
-      <DependentUpon>Iluminacion.cs</DependentUpon>
+    <EmbeddedResource Include="Views\FormIluminacion.resx">
+      <DependentUpon>FormIluminacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
