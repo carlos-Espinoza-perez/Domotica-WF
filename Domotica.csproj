@@ -70,6 +70,26 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\Alarma.cs" />
+    <Compile Include="Models\Camara.cs" />
+    <Compile Include="Models\ControlAcceso.cs" />
+    <Compile Include="Models\ControlRapidoItem.cs" />
+    <Compile Include="Models\DispositivoBase.cs" />
+    <Compile Include="Models\Luz.cs" />
+    <Compile Include="Models\SensorAmbiental.cs" />
+    <Compile Include="Models\SensorCalidadAire.cs" />
+    <Compile Include="Models\SensorMovimiento.cs" />
+    <Compile Include="Models\SistemaMusica.cs" />
+    <Compile Include="Models\Television.cs" />
+    <Compile Include="Models\Termostato.cs" />
+    <Compile Include="Controllers\ClimaController.cs" />
+    <Compile Include="Controllers\IluminacionController.cs" />
+    <Compile Include="Controllers\InicioController.cs" />
+    <Compile Include="Controllers\MultimediaController.cs" />
+    <Compile Include="Controllers\SeguridadController.cs" />
+    <Compile Include="Controllers\SistemaIluminacionController.cs" />
+
+
     <Compile Include="Views\Clima.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +111,13 @@
     <Compile Include="Views\FormIluminacion.Designer.cs">
       <DependentUpon>FormIluminacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\FormAgregarLuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormAgregarLuz.Designer.cs">
+      <DependentUpon>FormAgregarLuz.cs</DependentUpon>
+    </Compile>
+
     <Compile Include="Views\Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +135,12 @@
     </Compile>
     <Compile Include="Views\Seguridad.Designer.cs">
       <DependentUpon>Seguridad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormAgregarMultimedia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormAgregarMultimedia.Designer.cs">
+      <DependentUpon>FormAgregarMultimedia.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\_Layout.cs">
       <SubType>Form</SubType>

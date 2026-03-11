@@ -1,4 +1,4 @@
-﻿namespace Domotica.Views
+namespace Domotica.Views
 {
     partial class Inicio
     {
@@ -701,6 +701,7 @@
             // 
             // button9
             // 
+            this.button9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button9.BackColor = System.Drawing.Color.White;
             this.button9.ForeColor = System.Drawing.Color.Gray;
             this.button9.Location = new System.Drawing.Point(63, 63);
@@ -713,6 +714,7 @@
             // 
             // label23
             // 
+            this.label23.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label23.AutoSize = true;
             this.label23.BackColor = System.Drawing.Color.White;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -727,6 +729,7 @@
             // 
             // iconPictureBox10
             // 
+            this.iconPictureBox10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.iconPictureBox10.BackColor = System.Drawing.Color.White;
             this.iconPictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.iconPictureBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
@@ -759,6 +762,7 @@
             // 
             // button8
             // 
+            this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button8.BackColor = System.Drawing.Color.White;
             this.button8.ForeColor = System.Drawing.Color.Gray;
             this.button8.Location = new System.Drawing.Point(63, 63);
@@ -771,6 +775,7 @@
             // 
             // label22
             // 
+            this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label22.AutoSize = true;
             this.label22.BackColor = System.Drawing.Color.White;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -785,6 +790,7 @@
             // 
             // iconPictureBox9
             // 
+            this.iconPictureBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.iconPictureBox9.BackColor = System.Drawing.Color.White;
             this.iconPictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.iconPictureBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
@@ -817,6 +823,7 @@
             // 
             // button7
             // 
+            this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button7.BackColor = System.Drawing.Color.White;
             this.button7.ForeColor = System.Drawing.Color.Gray;
             this.button7.Location = new System.Drawing.Point(63, 63);
@@ -829,6 +836,7 @@
             // 
             // label21
             // 
+            this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.White;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -842,6 +850,7 @@
             // 
             // iconPictureBox8
             // 
+            this.iconPictureBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.iconPictureBox8.BackColor = System.Drawing.Color.White;
             this.iconPictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.iconPictureBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
@@ -874,6 +883,7 @@
             // 
             // button6
             // 
+            this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button6.BackColor = System.Drawing.Color.White;
             this.button6.ForeColor = System.Drawing.Color.Gray;
             this.button6.Location = new System.Drawing.Point(63, 63);
@@ -886,6 +896,7 @@
             // 
             // label20
             // 
+            this.label20.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.White;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -900,6 +911,7 @@
             // 
             // iconPictureBox7
             // 
+            this.iconPictureBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.iconPictureBox7.BackColor = System.Drawing.Color.White;
             this.iconPictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.iconPictureBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
@@ -946,6 +958,7 @@
             // 
             // button5
             // 
+            this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button5.BackColor = System.Drawing.Color.White;
             this.button5.ForeColor = System.Drawing.Color.Gray;
             this.button5.Location = new System.Drawing.Point(57, 63);
@@ -958,6 +971,7 @@
             // 
             // label19
             // 
+            this.label19.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.White;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
@@ -971,6 +985,7 @@
             // 
             // iconPictureBox6
             // 
+            this.iconPictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.iconPictureBox6.BackColor = System.Drawing.Color.White;
             this.iconPictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.iconPictureBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
@@ -1026,6 +1041,9 @@
             // 
             // graficaTendencia1
             // 
+            this.graficaTendencia1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.graficaTendencia1.BackColor = System.Drawing.Color.Transparent;
             this.graficaTendencia1.Horas = ((System.Collections.Generic.List<string>)(resources.GetObject("graficaTendencia1.Horas")));
             this.graficaTendencia1.Location = new System.Drawing.Point(17, 78);
@@ -1095,11 +1113,11 @@
             // tableLayoutPanel11
             // 
             this.tableLayoutPanel11.ColumnCount = 5;
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8.928572F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.67533F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.1508F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.87013F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.253246F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.33F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.34F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.33F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
             this.tableLayoutPanel11.Controls.Add(this.button11, 1, 0);
             this.tableLayoutPanel11.Controls.Add(this.button12, 2, 0);
             this.tableLayoutPanel11.Controls.Add(this.button13, 3, 0);
@@ -1114,10 +1132,11 @@
             // button11
             // 
             this.button11.BackColor = System.Drawing.Color.White;
+            this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button11.ForeColor = System.Drawing.Color.Gray;
             this.button11.Location = new System.Drawing.Point(58, 3);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(140, 29);
+            this.button11.Size = new System.Drawing.Size(162, 29);
             this.button11.TabIndex = 19;
             this.button11.Text = "Frio";
             this.button11.UseVisualStyleBackColor = false;
@@ -1125,10 +1144,11 @@
             // button12
             // 
             this.button12.BackColor = System.Drawing.Color.White;
+            this.button12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button12.ForeColor = System.Drawing.Color.Gray;
-            this.button12.Location = new System.Drawing.Point(210, 3);
+            this.button12.Location = new System.Drawing.Point(226, 3);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(159, 29);
+            this.button12.Size = new System.Drawing.Size(162, 29);
             this.button12.TabIndex = 20;
             this.button12.Text = "Calor";
             this.button12.UseVisualStyleBackColor = false;
@@ -1136,10 +1156,11 @@
             // button13
             // 
             this.button13.BackColor = System.Drawing.Color.White;
+            this.button13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button13.ForeColor = System.Drawing.Color.Gray;
-            this.button13.Location = new System.Drawing.Point(377, 3);
+            this.button13.Location = new System.Drawing.Point(394, 3);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(175, 29);
+            this.button13.Size = new System.Drawing.Size(162, 29);
             this.button13.TabIndex = 21;
             this.button13.Text = "Auto";
             this.button13.UseVisualStyleBackColor = false;
@@ -1167,11 +1188,12 @@
             this.sliderModerno1.ColorPistaLlena = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
             this.sliderModerno1.ColorPistaVacia = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(224)))), ((int)(((byte)(230)))));
             this.sliderModerno1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sliderModerno1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.sliderModerno1.Location = new System.Drawing.Point(58, 3);
             this.sliderModerno1.Maximo = 100;
             this.sliderModerno1.Minimo = 0;
             this.sliderModerno1.Name = "sliderModerno1";
-            this.sliderModerno1.Size = new System.Drawing.Size(491, 30);
+            this.sliderModerno1.Size = new System.Drawing.Size(498, 30);
             this.sliderModerno1.TabIndex = 16;
             this.sliderModerno1.Text = "sliderModerno1";
             this.sliderModerno1.Valor = 50;
@@ -1208,6 +1230,7 @@
             // 
             // label27
             // 
+            this.label27.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label27.AutoSize = true;
             this.label27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
             this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
@@ -1220,6 +1243,7 @@
             // 
             // label26
             // 
+            this.label26.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label26.AutoSize = true;
             this.label26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
