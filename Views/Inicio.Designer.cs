@@ -178,7 +178,7 @@ namespace Domotica.Views
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1245, 110);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1262, 110);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // panelRedondeado5
@@ -192,11 +192,11 @@ namespace Domotica.Views
             this.panelRedondeado5.Controls.Add(this.label18);
             this.panelRedondeado5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRedondeado5.GrosorBorde = 1;
-            this.panelRedondeado5.Location = new System.Drawing.Point(933, 0);
+            this.panelRedondeado5.Location = new System.Drawing.Point(945, 0);
             this.panelRedondeado5.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.panelRedondeado5.Name = "panelRedondeado5";
             this.panelRedondeado5.RadioBordes = 15;
-            this.panelRedondeado5.Size = new System.Drawing.Size(309, 110);
+            this.panelRedondeado5.Size = new System.Drawing.Size(314, 110);
             this.panelRedondeado5.TabIndex = 4;
             // 
             // label16
@@ -207,7 +207,7 @@ namespace Domotica.Views
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.label16.Location = new System.Drawing.Point(14, 70);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(72, 26);
+            this.label16.Size = new System.Drawing.Size(76, 29);
             this.label16.TabIndex = 4;
             this.label16.Text = "Activa";
             // 
@@ -219,7 +219,7 @@ namespace Domotica.Views
             this.label17.Location = new System.Drawing.Point(16, 52);
             this.label17.Margin = new System.Windows.Forms.Padding(0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(55, 13);
+            this.label17.Size = new System.Drawing.Size(73, 17);
             this.label17.TabIndex = 9;
             this.label17.Text = "Seguridad";
             // 
@@ -238,14 +238,14 @@ namespace Domotica.Views
             this.tableLayoutPanel7.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(309, 49);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(314, 49);
             this.tableLayoutPanel7.TabIndex = 8;
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.White;
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
-            this.button4.Location = new System.Drawing.Point(130, 18);
+            this.button4.Location = new System.Drawing.Point(133, 18);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 18, 4, 3);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(164, 23);
@@ -287,11 +287,11 @@ namespace Domotica.Views
             this.panelRedondeado4.Controls.Add(this.label15);
             this.panelRedondeado4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRedondeado4.GrosorBorde = 1;
-            this.panelRedondeado4.Location = new System.Drawing.Point(622, 0);
+            this.panelRedondeado4.Location = new System.Drawing.Point(630, 0);
             this.panelRedondeado4.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.panelRedondeado4.Name = "panelRedondeado4";
             this.panelRedondeado4.RadioBordes = 15;
-            this.panelRedondeado4.Size = new System.Drawing.Size(308, 110);
+            this.panelRedondeado4.Size = new System.Drawing.Size(312, 110);
             this.panelRedondeado4.TabIndex = 3;
             // 
             // label13
@@ -302,7 +302,7 @@ namespace Domotica.Views
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.label13.Location = new System.Drawing.Point(14, 70);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(69, 26);
+            this.label13.Size = new System.Drawing.Size(74, 29);
             this.label13.TabIndex = 4;
             this.label13.Text = "840W";
             // 
@@ -314,7 +314,7 @@ namespace Domotica.Views
             this.label14.Location = new System.Drawing.Point(16, 52);
             this.label14.Margin = new System.Windows.Forms.Padding(0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(45, 13);
+            this.label14.Size = new System.Drawing.Size(57, 17);
             this.label14.TabIndex = 9;
             this.label14.Text = "Energía";
             // 
@@ -333,7 +333,7 @@ namespace Domotica.Views
             this.tableLayoutPanel6.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(308, 49);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(312, 49);
             this.tableLayoutPanel6.TabIndex = 8;
             // 
             // button3
@@ -382,11 +382,11 @@ namespace Domotica.Views
             this.panelRedondeado3.Controls.Add(this.label5);
             this.panelRedondeado3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRedondeado3.GrosorBorde = 1;
-            this.panelRedondeado3.Location = new System.Drawing.Point(311, 0);
+            this.panelRedondeado3.Location = new System.Drawing.Point(315, 0);
             this.panelRedondeado3.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.panelRedondeado3.Name = "panelRedondeado3";
             this.panelRedondeado3.RadioBordes = 15;
-            this.panelRedondeado3.Size = new System.Drawing.Size(308, 110);
+            this.panelRedondeado3.Size = new System.Drawing.Size(312, 110);
             this.panelRedondeado3.TabIndex = 2;
             // 
             // label3
@@ -397,7 +397,7 @@ namespace Domotica.Views
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.label3.Location = new System.Drawing.Point(14, 70);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 26);
+            this.label3.Size = new System.Drawing.Size(61, 29);
             this.label3.TabIndex = 4;
             this.label3.Text = "66%";
             // 
@@ -409,7 +409,7 @@ namespace Domotica.Views
             this.label4.Location = new System.Drawing.Point(16, 52);
             this.label4.Margin = new System.Windows.Forms.Padding(0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 13);
+            this.label4.Size = new System.Drawing.Size(69, 17);
             this.label4.TabIndex = 9;
             this.label4.Text = "Humedad";
             // 
@@ -428,7 +428,7 @@ namespace Domotica.Views
             this.tableLayoutPanel5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(308, 49);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(312, 49);
             this.tableLayoutPanel5.TabIndex = 8;
             // 
             // button2
@@ -481,7 +481,7 @@ namespace Domotica.Views
             this.panelRedondeado2.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.panelRedondeado2.Name = "panelRedondeado2";
             this.panelRedondeado2.RadioBordes = 15;
-            this.panelRedondeado2.Size = new System.Drawing.Size(308, 110);
+            this.panelRedondeado2.Size = new System.Drawing.Size(312, 110);
             this.panelRedondeado2.TabIndex = 1;
             // 
             // label12
@@ -492,7 +492,7 @@ namespace Domotica.Views
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.label12.Location = new System.Drawing.Point(14, 70);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(85, 26);
+            this.label12.Size = new System.Drawing.Size(89, 29);
             this.label12.TabIndex = 4;
             this.label12.Text = "22.5 °C";
             // 
@@ -504,7 +504,7 @@ namespace Domotica.Views
             this.label11.Location = new System.Drawing.Point(16, 52);
             this.label11.Margin = new System.Windows.Forms.Padding(0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(67, 13);
+            this.label11.Size = new System.Drawing.Size(90, 17);
             this.label11.TabIndex = 9;
             this.label11.Text = "Temperatura";
             // 
@@ -523,7 +523,7 @@ namespace Domotica.Views
             this.tableLayoutPanel4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(308, 49);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(312, 49);
             this.tableLayoutPanel4.TabIndex = 8;
             // 
             // button1
@@ -567,7 +567,7 @@ namespace Domotica.Views
             this.panel1.Enabled = false;
             this.panel1.Location = new System.Drawing.Point(14, 123);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1245, 10);
+            this.panel1.Size = new System.Drawing.Size(1262, 10);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -575,7 +575,7 @@ namespace Domotica.Views
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(14, 243);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1245, 10);
+            this.panel2.Size = new System.Drawing.Size(1262, 10);
             this.panel2.TabIndex = 3;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -583,12 +583,12 @@ namespace Domotica.Views
             // 
             this.label6.AutoSize = true;
             this.label6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label6.Font = new System.Drawing.Font("Arial", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.label6.Location = new System.Drawing.Point(14, 253);
             this.label6.Name = "label6";
             this.label6.Padding = new System.Windows.Forms.Padding(0, 8, 0, 12);
-            this.label6.Size = new System.Drawing.Size(122, 36);
+            this.label6.Size = new System.Drawing.Size(155, 39);
             this.label6.TabIndex = 4;
             this.label6.Text = "Controles Rapidos";
             // 
@@ -597,9 +597,9 @@ namespace Domotica.Views
             this.panel3.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel3.Location = new System.Drawing.Point(14, 289);
+            this.panel3.Location = new System.Drawing.Point(14, 292);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1245, 1);
+            this.panel3.Size = new System.Drawing.Size(1262, 1);
             this.panel3.TabIndex = 5;
             // 
             // tableLayoutPanel2
@@ -618,12 +618,12 @@ namespace Domotica.Views
             this.tableLayoutPanel2.Controls.Add(this.panelRedondeado8, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.panelRedondeado6, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(14, 290);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(14, 293);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.Padding = new System.Windows.Forms.Padding(0, 12, 0, 0);
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1245, 115);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1262, 115);
             this.tableLayoutPanel2.TabIndex = 6;
             // 
             // panelRedondeado12
@@ -636,10 +636,10 @@ namespace Domotica.Views
             this.panelRedondeado12.Controls.Add(this.iconPictureBox11);
             this.panelRedondeado12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRedondeado12.GrosorBorde = 1;
-            this.panelRedondeado12.Location = new System.Drawing.Point(1039, 15);
+            this.panelRedondeado12.Location = new System.Drawing.Point(1054, 15);
             this.panelRedondeado12.Name = "panelRedondeado12";
             this.panelRedondeado12.RadioBordes = 15;
-            this.panelRedondeado12.Size = new System.Drawing.Size(203, 97);
+            this.panelRedondeado12.Size = new System.Drawing.Size(205, 97);
             this.panelRedondeado12.TabIndex = 13;
             // 
             // button10
@@ -663,7 +663,7 @@ namespace Domotica.Views
             this.label24.Location = new System.Drawing.Point(66, 37);
             this.label24.Margin = new System.Windows.Forms.Padding(0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(72, 17);
+            this.label24.Size = new System.Drawing.Size(74, 18);
             this.label24.TabIndex = 10;
             this.label24.Text = "Television";
             // 
@@ -693,10 +693,10 @@ namespace Domotica.Views
             this.panelRedondeado11.Controls.Add(this.iconPictureBox10);
             this.panelRedondeado11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRedondeado11.GrosorBorde = 1;
-            this.panelRedondeado11.Location = new System.Drawing.Point(832, 15);
+            this.panelRedondeado11.Location = new System.Drawing.Point(844, 15);
             this.panelRedondeado11.Name = "panelRedondeado11";
             this.panelRedondeado11.RadioBordes = 15;
-            this.panelRedondeado11.Size = new System.Drawing.Size(201, 97);
+            this.panelRedondeado11.Size = new System.Drawing.Size(204, 97);
             this.panelRedondeado11.TabIndex = 12;
             // 
             // button9
@@ -722,7 +722,7 @@ namespace Domotica.Views
             this.label23.Location = new System.Drawing.Point(73, 37);
             this.label23.Margin = new System.Windows.Forms.Padding(0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(52, 17);
+            this.label23.Size = new System.Drawing.Size(56, 18);
             this.label23.TabIndex = 10;
             this.label23.Text = "Musica";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -754,10 +754,10 @@ namespace Domotica.Views
             this.panelRedondeado10.Controls.Add(this.iconPictureBox9);
             this.panelRedondeado10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRedondeado10.GrosorBorde = 1;
-            this.panelRedondeado10.Location = new System.Drawing.Point(625, 15);
+            this.panelRedondeado10.Location = new System.Drawing.Point(634, 15);
             this.panelRedondeado10.Name = "panelRedondeado10";
             this.panelRedondeado10.RadioBordes = 15;
-            this.panelRedondeado10.Size = new System.Drawing.Size(201, 97);
+            this.panelRedondeado10.Size = new System.Drawing.Size(204, 97);
             this.panelRedondeado10.TabIndex = 11;
             // 
             // button8
@@ -783,7 +783,7 @@ namespace Domotica.Views
             this.label22.Location = new System.Drawing.Point(46, 37);
             this.label22.Margin = new System.Windows.Forms.Padding(0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(107, 17);
+            this.label22.Size = new System.Drawing.Size(109, 18);
             this.label22.TabIndex = 10;
             this.label22.Text = "Puerta principal";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -815,10 +815,10 @@ namespace Domotica.Views
             this.panelRedondeado9.Controls.Add(this.iconPictureBox8);
             this.panelRedondeado9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRedondeado9.GrosorBorde = 1;
-            this.panelRedondeado9.Location = new System.Drawing.Point(418, 15);
+            this.panelRedondeado9.Location = new System.Drawing.Point(424, 15);
             this.panelRedondeado9.Name = "panelRedondeado9";
             this.panelRedondeado9.RadioBordes = 15;
-            this.panelRedondeado9.Size = new System.Drawing.Size(201, 97);
+            this.panelRedondeado9.Size = new System.Drawing.Size(204, 97);
             this.panelRedondeado9.TabIndex = 10;
             // 
             // button7
@@ -844,7 +844,7 @@ namespace Domotica.Views
             this.label21.Location = new System.Drawing.Point(72, 37);
             this.label21.Margin = new System.Windows.Forms.Padding(0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(56, 17);
+            this.label21.Size = new System.Drawing.Size(59, 18);
             this.label21.TabIndex = 10;
             this.label21.Text = "Exterior";
             // 
@@ -875,10 +875,10 @@ namespace Domotica.Views
             this.panelRedondeado8.Controls.Add(this.iconPictureBox7);
             this.panelRedondeado8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRedondeado8.GrosorBorde = 1;
-            this.panelRedondeado8.Location = new System.Drawing.Point(211, 15);
+            this.panelRedondeado8.Location = new System.Drawing.Point(214, 15);
             this.panelRedondeado8.Name = "panelRedondeado8";
             this.panelRedondeado8.RadioBordes = 15;
-            this.panelRedondeado8.Size = new System.Drawing.Size(201, 97);
+            this.panelRedondeado8.Size = new System.Drawing.Size(204, 97);
             this.panelRedondeado8.TabIndex = 9;
             // 
             // button6
@@ -904,7 +904,7 @@ namespace Domotica.Views
             this.label20.Location = new System.Drawing.Point(74, 37);
             this.label20.Margin = new System.Windows.Forms.Padding(0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(51, 17);
+            this.label20.Size = new System.Drawing.Size(55, 18);
             this.label20.TabIndex = 10;
             this.label20.Text = "Cocina";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -937,7 +937,7 @@ namespace Domotica.Views
             this.panelRedondeado6.Location = new System.Drawing.Point(3, 15);
             this.panelRedondeado6.Name = "panelRedondeado6";
             this.panelRedondeado6.RadioBordes = 15;
-            this.panelRedondeado6.Size = new System.Drawing.Size(202, 97);
+            this.panelRedondeado6.Size = new System.Drawing.Size(205, 97);
             this.panelRedondeado6.TabIndex = 7;
             // 
             // panelRedondeado7
@@ -953,7 +953,7 @@ namespace Domotica.Views
             this.panelRedondeado7.Location = new System.Drawing.Point(0, 0);
             this.panelRedondeado7.Name = "panelRedondeado7";
             this.panelRedondeado7.RadioBordes = 15;
-            this.panelRedondeado7.Size = new System.Drawing.Size(202, 97);
+            this.panelRedondeado7.Size = new System.Drawing.Size(205, 97);
             this.panelRedondeado7.TabIndex = 8;
             // 
             // button5
@@ -979,7 +979,7 @@ namespace Domotica.Views
             this.label19.Location = new System.Drawing.Point(54, 36);
             this.label19.Margin = new System.Windows.Forms.Padding(0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(92, 17);
+            this.label19.Size = new System.Drawing.Size(94, 18);
             this.label19.TabIndex = 10;
             this.label19.Text = "Sala de estar";
             // 
@@ -1003,9 +1003,9 @@ namespace Domotica.Views
             // panel4
             // 
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(14, 405);
+            this.panel4.Location = new System.Drawing.Point(14, 408);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1245, 12);
+            this.panel4.Size = new System.Drawing.Size(1262, 12);
             this.panel4.TabIndex = 7;
             // 
             // tableLayoutPanel3
@@ -1016,11 +1016,11 @@ namespace Domotica.Views
             this.tableLayoutPanel3.Controls.Add(this.panelRedondeado14, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.panelRedondeado13, 0, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(14, 417);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(14, 420);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1245, 259);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1262, 259);
             this.tableLayoutPanel3.TabIndex = 8;
             // 
             // panelRedondeado14
@@ -1033,10 +1033,10 @@ namespace Domotica.Views
             this.panelRedondeado14.Controls.Add(this.tableLayoutPanel12);
             this.panelRedondeado14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRedondeado14.GrosorBorde = 1;
-            this.panelRedondeado14.Location = new System.Drawing.Point(625, 3);
+            this.panelRedondeado14.Location = new System.Drawing.Point(634, 3);
             this.panelRedondeado14.Name = "panelRedondeado14";
             this.panelRedondeado14.RadioBordes = 15;
-            this.panelRedondeado14.Size = new System.Drawing.Size(617, 253);
+            this.panelRedondeado14.Size = new System.Drawing.Size(625, 253);
             this.panelRedondeado14.TabIndex = 10;
             // 
             // graficaTendencia1
@@ -1060,7 +1060,7 @@ namespace Domotica.Views
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(0, 55);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(617, 1);
+            this.panel7.Size = new System.Drawing.Size(625, 1);
             this.panel7.TabIndex = 14;
             // 
             // tableLayoutPanel12
@@ -1075,7 +1075,7 @@ namespace Domotica.Views
             this.tableLayoutPanel12.Name = "tableLayoutPanel12";
             this.tableLayoutPanel12.RowCount = 1;
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(617, 55);
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(625, 55);
             this.tableLayoutPanel12.TabIndex = 13;
             // 
             // label28
@@ -1086,7 +1086,7 @@ namespace Domotica.Views
             this.label28.Location = new System.Drawing.Point(22, 22);
             this.label28.Margin = new System.Windows.Forms.Padding(3, 22, 3, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(178, 16);
+            this.label28.Size = new System.Drawing.Size(211, 19);
             this.label28.TabIndex = 9;
             this.label28.Text = "Tendencia de Temperatura";
             // 
@@ -1106,7 +1106,7 @@ namespace Domotica.Views
             this.panelRedondeado13.Location = new System.Drawing.Point(3, 3);
             this.panelRedondeado13.Name = "panelRedondeado13";
             this.panelRedondeado13.RadioBordes = 15;
-            this.panelRedondeado13.Size = new System.Drawing.Size(616, 253);
+            this.panelRedondeado13.Size = new System.Drawing.Size(625, 253);
             this.panelRedondeado13.TabIndex = 9;
             this.panelRedondeado13.Paint += new System.Windows.Forms.PaintEventHandler(this.panelRedondeado13_Paint);
             // 
@@ -1126,7 +1126,7 @@ namespace Domotica.Views
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
             this.tableLayoutPanel11.RowCount = 1;
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(616, 35);
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(625, 35);
             this.tableLayoutPanel11.TabIndex = 18;
             // 
             // button11
@@ -1146,7 +1146,7 @@ namespace Domotica.Views
             this.button12.BackColor = System.Drawing.Color.White;
             this.button12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button12.ForeColor = System.Drawing.Color.Gray;
-            this.button12.Location = new System.Drawing.Point(226, 3);
+            this.button12.Location = new System.Drawing.Point(212, 3);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(162, 29);
             this.button12.TabIndex = 20;
@@ -1158,7 +1158,7 @@ namespace Domotica.Views
             this.button13.BackColor = System.Drawing.Color.White;
             this.button13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button13.ForeColor = System.Drawing.Color.Gray;
-            this.button13.Location = new System.Drawing.Point(394, 3);
+            this.button13.Location = new System.Drawing.Point(381, 3);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(162, 29);
             this.button13.TabIndex = 21;
@@ -1178,7 +1178,7 @@ namespace Domotica.Views
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
             this.tableLayoutPanel9.RowCount = 1;
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(616, 36);
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(625, 36);
             this.tableLayoutPanel9.TabIndex = 17;
             // 
             // sliderModerno1
@@ -1188,8 +1188,7 @@ namespace Domotica.Views
             this.sliderModerno1.ColorPistaLlena = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
             this.sliderModerno1.ColorPistaVacia = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(224)))), ((int)(((byte)(230)))));
             this.sliderModerno1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sliderModerno1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sliderModerno1.Location = new System.Drawing.Point(58, 3);
+            this.sliderModerno1.Location = new System.Drawing.Point(59, 3);
             this.sliderModerno1.Maximo = 100;
             this.sliderModerno1.Minimo = 0;
             this.sliderModerno1.Name = "sliderModerno1";
@@ -1210,7 +1209,7 @@ namespace Domotica.Views
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
             this.tableLayoutPanel10.RowCount = 1;
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(616, 79);
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(625, 79);
             this.tableLayoutPanel10.TabIndex = 15;
             // 
             // panelRedondeado16
@@ -1222,10 +1221,10 @@ namespace Domotica.Views
             this.panelRedondeado16.Controls.Add(this.label26);
             this.panelRedondeado16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRedondeado16.GrosorBorde = 1;
-            this.panelRedondeado16.Location = new System.Drawing.Point(58, 3);
+            this.panelRedondeado16.Location = new System.Drawing.Point(59, 3);
             this.panelRedondeado16.Name = "panelRedondeado16";
             this.panelRedondeado16.RadioBordes = 15;
-            this.panelRedondeado16.Size = new System.Drawing.Size(498, 73);
+            this.panelRedondeado16.Size = new System.Drawing.Size(505, 73);
             this.panelRedondeado16.TabIndex = 13;
             // 
             // label27
@@ -1237,7 +1236,7 @@ namespace Domotica.Views
             this.label27.Location = new System.Drawing.Point(197, 46);
             this.label27.Margin = new System.Windows.Forms.Padding(0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(107, 13);
+            this.label27.Size = new System.Drawing.Size(143, 17);
             this.label27.TabIndex = 17;
             this.label27.Text = "Temperatura objetivo";
             // 
@@ -1250,7 +1249,7 @@ namespace Domotica.Views
             this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.label26.Location = new System.Drawing.Point(208, 16);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(89, 29);
+            this.label26.Size = new System.Drawing.Size(97, 29);
             this.label26.TabIndex = 16;
             this.label26.Text = "22.5 °C";
             // 
@@ -1259,7 +1258,7 @@ namespace Domotica.Views
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 56);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(616, 22);
+            this.panel6.Size = new System.Drawing.Size(625, 22);
             this.panel6.TabIndex = 12;
             // 
             // panel5
@@ -1268,7 +1267,7 @@ namespace Domotica.Views
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 55);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(616, 1);
+            this.panel5.Size = new System.Drawing.Size(625, 1);
             this.panel5.TabIndex = 11;
             // 
             // tableLayoutPanel8
@@ -1284,7 +1283,7 @@ namespace Domotica.Views
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 1;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(616, 55);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(625, 55);
             this.tableLayoutPanel8.TabIndex = 10;
             // 
             // label25
@@ -1295,7 +1294,7 @@ namespace Domotica.Views
             this.label25.Location = new System.Drawing.Point(55, 22);
             this.label25.Margin = new System.Windows.Forms.Padding(3, 22, 3, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(144, 16);
+            this.label25.Size = new System.Drawing.Size(175, 19);
             this.label25.TabIndex = 9;
             this.label25.Text = "Control de termostato";
             // 
@@ -1332,7 +1331,7 @@ namespace Domotica.Views
             this.panelRedondeado1.Name = "panelRedondeado1";
             this.panelRedondeado1.Padding = new System.Windows.Forms.Padding(12);
             this.panelRedondeado1.RadioBordes = 15;
-            this.panelRedondeado1.Size = new System.Drawing.Size(1245, 109);
+            this.panelRedondeado1.Size = new System.Drawing.Size(1262, 109);
             this.panelRedondeado1.TabIndex = 0;
             // 
             // panelRedondeado15
@@ -1345,7 +1344,7 @@ namespace Domotica.Views
             this.panelRedondeado15.Controls.Add(this.iconPictureBox1);
             this.panelRedondeado15.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelRedondeado15.GrosorBorde = 1;
-            this.panelRedondeado15.Location = new System.Drawing.Point(1150, 12);
+            this.panelRedondeado15.Location = new System.Drawing.Point(1167, 12);
             this.panelRedondeado15.Name = "panelRedondeado15";
             this.panelRedondeado15.RadioBordes = 15;
             this.panelRedondeado15.Size = new System.Drawing.Size(83, 85);
@@ -1358,7 +1357,7 @@ namespace Domotica.Views
             this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(29, 58);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(30, 13);
+            this.label10.Size = new System.Drawing.Size(39, 17);
             this.label10.TabIndex = 5;
             this.label10.Text = "24°C";
             // 
@@ -1369,7 +1368,7 @@ namespace Domotica.Views
             this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(21, 44);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(46, 13);
+            this.label9.Size = new System.Drawing.Size(60, 17);
             this.label9.TabIndex = 4;
             this.label9.Text = "Soleado";
             // 
@@ -1424,7 +1423,7 @@ namespace Domotica.Views
             // Inicio
             // 
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1290, 601);
+            this.ClientSize = new System.Drawing.Size(1290, 696);
             this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.tableLayoutPanel2);

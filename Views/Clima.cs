@@ -71,5 +71,75 @@ namespace Domotica.Views
         {
 
         }
+
+        private void panelRedondeado2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void iconButton2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelRedondeado3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panelRedondeado1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void iconPictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txt_control_de_clima_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton2_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel7_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
