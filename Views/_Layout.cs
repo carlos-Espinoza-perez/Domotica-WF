@@ -136,7 +136,7 @@ namespace Domotica.Views
         private void sidebar_opt_iluminacion_Click(object sender, EventArgs e)
         {
             ActivarBotonMenu(sidebar_opt_iluminacion);
-            AbrirFormEnPanel(new Iluminacion());
+            AbrirFormEnPanel(new FormIluminacion());
         }
 
         private void sidebar_opt_clima_Click(object sender, EventArgs e)
@@ -157,6 +157,9 @@ namespace Domotica.Views
             AbrirFormEnPanel(new Multimedia());
         }
 
+        private void PanelContenido_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }

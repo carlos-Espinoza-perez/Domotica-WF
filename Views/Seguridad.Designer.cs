@@ -145,16 +145,7 @@
             this.iconPictureBox6.Name = "iconPictureBox6";
             this.iconPictureBox6.Size = new System.Drawing.Size(32, 32);
             this.iconPictureBox6.TabIndex = 2;
-            this.iconPictureBox6.TabStop = false;
             // 
-            // PanelDispositivos
-            // 
-            this.PanelDispositivos.BackColor = System.Drawing.Color.RoyalBlue;
-            this.PanelDispositivos.Controls.Add(this.iconPictureBox5);
-            this.PanelDispositivos.Controls.Add(this.LabelDispositivos);
-            this.PanelDispositivos.Location = new System.Drawing.Point(1013, 10);
-            this.PanelDispositivos.Name = "PanelDispositivos";
-            this.PanelDispositivos.Size = new System.Drawing.Size(171, 39);
             this.PanelDispositivos.TabIndex = 1;
             // 
             // iconPictureBox5
@@ -247,7 +238,6 @@
             // PanelControlDeAcceso
             // 
             this.PanelControlDeAcceso.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.PanelControlDeAcceso.ColorTarjeta = System.Drawing.Color.White;
             this.PanelControlDeAcceso.Controls.Add(this.tableLayoutPanel2);
             this.PanelControlDeAcceso.Controls.Add(this.iconPictureBox1);
             this.PanelControlDeAcceso.Controls.Add(this.LabelControlDeAcceso);
@@ -257,7 +247,6 @@
             this.PanelControlDeAcceso.RadioBordes = 15;
             this.PanelControlDeAcceso.Size = new System.Drawing.Size(709, 205);
             this.PanelControlDeAcceso.TabIndex = 16;
-            this.PanelControlDeAcceso.TamañoSombra = 6;
             // 
             // tableLayoutPanel2
             // 
@@ -395,7 +384,6 @@
             // PanelFedeDeCámara
             // 
             this.PanelFedeDeCámara.BackColor = System.Drawing.Color.Transparent;
-            this.PanelFedeDeCámara.ColorTarjeta = System.Drawing.Color.White;
             this.PanelFedeDeCámara.Controls.Add(this.iconCamaraGrande);
             this.PanelFedeDeCámara.Controls.Add(this.tableLayoutPanel3);
             this.PanelFedeDeCámara.Controls.Add(this.iconPictureBox2);
@@ -406,7 +394,6 @@
             this.PanelFedeDeCámara.RadioBordes = 15;
             this.PanelFedeDeCámara.Size = new System.Drawing.Size(360, 312);
             this.PanelFedeDeCámara.TabIndex = 15;
-            this.PanelFedeDeCámara.TamañoSombra = 6;
             // 
             // iconCamaraGrande
             // 
@@ -527,7 +514,6 @@
             // PanelControlDelSistema
             // 
             this.PanelControlDelSistema.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.PanelControlDelSistema.ColorTarjeta = System.Drawing.Color.White;
             this.PanelControlDelSistema.Controls.Add(this.tableLayoutPanel1);
             this.PanelControlDelSistema.Controls.Add(this.iconShield);
             this.PanelControlDelSistema.Controls.Add(this.LabelControlDeSistema);
@@ -538,7 +524,6 @@
             this.PanelControlDelSistema.RadioBordes = 15;
             this.PanelControlDelSistema.Size = new System.Drawing.Size(709, 312);
             this.PanelControlDelSistema.TabIndex = 14;
-            this.PanelControlDelSistema.TamañoSombra = 6;
             // 
             // tableLayoutPanel1
             // 
@@ -683,6 +668,15 @@
             this.LabelSistemaSeguridad.Size = new System.Drawing.Size(254, 33);
             this.LabelSistemaSeguridad.TabIndex = 0;
             this.LabelSistemaSeguridad.Text = "Sistema de Seguridad";
+=======
+            this.panelRedondeado3.BackColor = System.Drawing.Color.Transparent;
+            this.panelRedondeado3.Location = new System.Drawing.Point(42, 387);
+            this.panelRedondeado3.Name = "panelRedondeado3";
+            this.panelRedondeado3.Padding = new System.Windows.Forms.Padding(8);
+            this.panelRedondeado3.RadioBordes = 15;
+            this.panelRedondeado3.Size = new System.Drawing.Size(526, 136);
+            this.panelRedondeado3.TabIndex = 6;
+>>>>>>> main
             // 
             // Seguridad
             // 
