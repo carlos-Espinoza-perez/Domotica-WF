@@ -16,5 +16,25 @@ namespace Domotica.Views
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconPictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
