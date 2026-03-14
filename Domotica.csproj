@@ -136,6 +136,12 @@
     <Compile Include="Views\Seguridad.Designer.cs">
       <DependentUpon>Seguridad.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\FormAgregarSensor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormAgregarSensor.Designer.cs">
+      <DependentUpon>FormAgregarSensor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\FormAgregarMultimedia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Seguridad.resx">
       <DependentUpon>Seguridad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormAgregarSensor.resx">
+      <DependentUpon>FormAgregarSensor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\_Layout.resx">
       <DependentUpon>_Layout.cs</DependentUpon>
